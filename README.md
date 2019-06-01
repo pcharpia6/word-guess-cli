@@ -1,6 +1,8 @@
 # App Overview
 
-word-guess-cli is an app created as a homework assignment for the UNCH Coding Bootcamp in week 12 of the program. The assignment focuses on the use of node.js constructors.
+word-guess-cli is an app created as a homework assignment for the UNCH 
+Coding Bootcamp in week 12 of the program. The assignment focuses on 
+the use of node.js constructors.
 
 ### Technologies Used
 
@@ -12,7 +14,8 @@ word-guess-cli is an app created as a homework assignment for the UNCH Coding Bo
 
     1. Clone the repo from GitHub.
 
-    2. In the command prompt: navigate to the root folder and run "npm install" to download the dependencies.
+    2. In the command prompt: navigate to the root folder and run 
+    "npm install" to download the dependencies.
 
     3. Then run the program with "node index.js".
 
@@ -22,7 +25,9 @@ word-guess-cli is an app created as a homework assignment for the UNCH Coding Bo
 
 ![Run Program and Choose Yes or No](assets/word_guess_cli_begin.gif)
 
-    2. The app then prompts the user to begin guessing letters in an attempt to guess the hidden word. Individual letters are denoted with "_" characters.
+    2. The app then prompts the user to begin guessing letters in an 
+    attempt to guess the hidden word. Individual letters are denoted with 
+    "_" characters.
 
 ![Begin Guessing Letters](assets/word_guess_cli_guess.gif)
 
@@ -30,6 +35,8 @@ word-guess-cli is an app created as a homework assignment for the UNCH Coding Bo
 
 ![Victory](assets/word_guess_cli_win.gif)
 
-    4. Input validation prevents invalid characters, duplicate letters, and multiple letters from being guessed. Running out of guesses causes loss and requests user input for game restart.
+    4. Input validation prevents invalid characters, duplicate letters, 
+    and multiple letters from being guessed. Running out of guesses causes 
+    loss and requests user input for game restart.
 
 ![Input Validation and Loss](assets/word_guess_cli_loss.gif)
