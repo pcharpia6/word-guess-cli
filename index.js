@@ -18,9 +18,12 @@ function rand() {
 
 function run() {
     selectedWord = new Word(selection[rand()]);
+    if (!selectedWord) {
+        run()
+    } 
     selectedWord.splitWord();
     console.log("You have won " + numberCorrect + " times!");
-    console.log("You have lost " + numberIncorrect + " times!");
+    console.log("You have lost " + numberIncorrect + " times!");       
     request();
 };
 
